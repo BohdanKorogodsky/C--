@@ -93,6 +93,28 @@ int main()
     std::cout << "biNum2 = " << biNum2 << std::endl;
     std::cout << "biNum2 = " << biNum1 << "\n";
     
+    unsigned int unSignIntNum1{ 0b11010U };
+    std::cout << "unSignIntNum1 = " << unSignIntNum1 << std::endl;
+    long longNum2{ 0377L };
+    unsigned long unSignLongNum3{ 0xFFFFFFULL };
+    std::cout << "unSignLongNum3 = " << unSignLongNum3 << std::endl;
+
+    double doubleNum1 {10.45 };
+    std::cout << "doubleNum1 = " << doubleNum1 << std::endl;
+    double doubleNum2{ 1 };
+    std::cout << "doubleNum2 = " << doubleNum2 << std::endl;
+    double doubleNum3{ 1. };
+    std::cout << "doubleNum3 = " << doubleNum3 << std::endl;
+
+    float floatNum1{ 10.56f };
+    std::cout << "floatNum1 = " << floatNum1 << std::endl;
+    long double longDoubleNum2{ 10.56l };
+    std::cout << "longDoubleNum2 = " << longDoubleNum2 << std::endl;
+
+    long double longDoubleNumber1{ 2 };
+    std::cout << "sizeof(longDoubleNumber1) = " << sizeof(longDoubleNumber1) << std::endl;
+    
+
 
     std::cout << "Hello World!\n";
     std::cout << "privet\n";
