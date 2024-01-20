@@ -54,10 +54,12 @@ int main()
 
 
     unsigned long unSignLong = 534;
-    
-    unsigned long int unSingLongInt = 13423;
+    std::cout << "unSignLong = " << unSignLong << std::endl;
+    unsigned long int unSignLongInt = 13423;
+    std::cout << "unSignLongInt = " << unSignLongInt << std::endl;
 
     long long longLong = 345345345536;
+    
 
     long long int longLongInt = 234234;
 
